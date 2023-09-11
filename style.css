@@ -1,0 +1,52 @@
+body{
+    background-size: 100%;
+    background-color: black;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.container {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: #fff;
+    margin-top: 1%;
+    margin-bottom: 3%;
+}
+.profileContainer h1{
+    color: #fff;
+    text-align: center;
+    font-size: 4rem;
+    margin-top: 5.5rem;
+    margin-bottom: 3rem;
+}
+.profileInfo{
+    margin-top: 3.5rem;
+    align-items: center;
+    font-size: 20px;
+}
+#OutData{
+    font-weight: bold;
+    color: cornflowerblue;
+}
+
+img {
+    width: 150px;
+    height: auto;
+    margin-bottom: 20px;
+}
+
+.userInput {
+    padding: 10px;
+    font-size: 15px; 
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+
+.buttonGo {
+    padding: 10px 20px;
+    font-size: 16px;
+    background-color: cornflowerblue;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
